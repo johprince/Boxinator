@@ -1,0 +1,36 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Front-end react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=3000 && react-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@syncfusion/ej2-react-buttons": "^21.1.35",
+    "@syncfusion/ej2-react-navigations": "^21.1.35",
+    "bootstrap": "^5.2.3",
+    "react-bootstrap": "^2.7.2",
+    "react-date-picker": "^9.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "^5.0.1",
+    "rsuite": "^5.29.0",
+    "web-vitals": "^3.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

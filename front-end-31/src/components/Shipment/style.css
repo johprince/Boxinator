@@ -1,0 +1,36 @@
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.box {
+  background-color: #eee;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: calc(25% - 20px);
+}
+
+.box:hover {
+  background-color: #ddd;
+}
+
+.basic {
+  border: 2px solid #f00;
+}
+
+.humble {
+  border: 2px solid #0f0;
+}
+
+.deluxe {
+  border: 2px solid #00f;
+}
+
+.premium {
+  border: 2px solid #f0f;
+}
